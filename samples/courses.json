@@ -1,0 +1,12 @@
+{
+  list: [
+    {
+      name: 'Habituelle',
+      key: 'ZAB01'
+    },
+    {
+      name: 'Sortie dimanche',
+      key: 'HYD055'
+    }
+  ]
+}
