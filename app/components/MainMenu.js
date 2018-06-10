@@ -1,12 +1,13 @@
 import React from 'react';
 import { StyleSheet, Button, View } from 'react-native';
+import { Actions } from 'react-native-router-flux';
 
 class MainMenu extends React.Component {
   render() {
     return (
     <View style={styles.container}>
-      <Button style={[styles.button, styles.buttonList]} onPress={()=>{return false;}} title="Liste de courses"/>
-      <Button style={[styles.button, styles.buttonEvent]} onPress={()=>{return false;}} title="Event"/>
+      <Button style={[styles.button, styles.buttonList]} onPress={Actions.test1} title="Liste de courses"/>
+      <Button style={[styles.button, styles.buttonEvent]} onPress={Actions.test2} title="Event"/>
     </View>
   )
   }
