@@ -6,7 +6,7 @@ import { Actions } from 'react-native-router-flux';
 
 const currentLists = require('../../samples/courses.json');
 
-class CoursesList extends React.Component {
+class ShoppingList extends React.Component {
   render() {
     return (
       <View style={styles.container}>
@@ -44,4 +44,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default CoursesList
+export default ShoppingList

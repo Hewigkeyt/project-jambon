@@ -6,14 +6,14 @@ import { Actions } from 'react-native-router-flux';
 
 const currentLists = require('../../samples/courses.json');
 
-class CoursesMenu extends React.Component {
+class ShoppingMenu extends React.Component {
   render() {
     return (
     <View style={styles.container}>
       <Text style={styles.grosJambon}>Listes de courses</Text>
       <FlatList style={styles.list} data={currentLists.list}
         renderItem={({item})=><Text style={styles.listItem} onPress={()=>{Actions.coursesList({item: {name: item.name, key: item.key}})}}>{item.name}</Text>} />
-      <Button style={[styles.button, styles.buttonList]} title="Nouvelle liste" onPress={Actions.pop}></Button>
+      <Button style={[styles.button, styles.buttonList]} title="New list" onPress={Actions.pop}></Button>
       <Button style={[styles.button, styles.buttonList]} title="back" onPress={Actions.pop}></Button>
     </View>
   )
@@ -44,4 +44,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default CoursesMenu
+export default ShoppingMenu

@@ -1,4 +1,5 @@
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
+The final goal of the app will be to have synchronized shopping lists between users, so that people can know easily what they should bring to a party for example.
 
 ## Install
 ```

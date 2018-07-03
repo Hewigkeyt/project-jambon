@@ -6,7 +6,7 @@ class MainMenu extends React.Component {
   render() {
     return (
     <View style={styles.container}>
-      <Button style={[styles.button, styles.buttonList]} onPress={Actions.coursesMenu} title="Liste de courses"/>
+      <Button style={[styles.button, styles.buttonList]} onPress={Actions.coursesMenu} title="Shopping List"/>
       <Button style={[styles.button, styles.buttonEvent]} onPress={Actions.test2} title="Event"/>
     </View>
   )
